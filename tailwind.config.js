@@ -9,6 +9,11 @@ module.exports = withMT( {
   "path-to-your-node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}",
 ],
   theme: {
+    colors: {
+      'black': '#292830',
+      'green': '#25494C',
+
+    },
     extend: {
       'sm': '400px',
       screens: {

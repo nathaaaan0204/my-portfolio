@@ -49,30 +49,8 @@ export const NavbarComponent = () => {
 
   return (
     <>
-        {/* <nav className="p-2 mt-0 fixed w-full z-10 top-10 bg-white">
-          <div className="flex items-center justify-between text-blue-gray-900">
-            
-            <div className="hidden lg:block">
-              <NavList />
-            </div>
-            <IconButton
-              variant="text"
-              className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
-              ripple={false}
-              onClick={() => setOpenNav(!openNav)}
-            >
-              {openNav ? (
-                <XMarkIcon className="h-6 w-6" strokeWidth={2} />
-              ) : (
-                <Bars3Icon className="h-6 w-6" strokeWidth={2} />
-              )}
-            </IconButton>
-          </div>
-          <Collapse open={openNav}>
-            <NavList />
-          </Collapse>
-        </nav> */}
-<Navbar className="max-w-full px-10 py-3 fixed top-10 mx-[16px] md:mx-[100px] 2xl:mx-[200px] 2xl:w-[calc(100%-400px)] md:w-[calc(100%-200px)] w-[calc(100%-32px)]"
+   
+<Navbar className="max-w-full bg-white z-[100] px-10 py-3 fixed top-10 mx-[16px] md:mx-[100px] 2xl:mx-[200px] 2xl:w-[calc(100%-400px)] md:w-[calc(100%-200px)] w-[calc(100%-32px)]"
     >
       <div className="flex items-center justify-between text-blue-gray-900">
       <Link
