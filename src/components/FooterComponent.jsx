@@ -5,7 +5,7 @@ import { buttonIcon } from '../utils/Data'
 
 export const Footer = () => {
   return (
-    <div className="border-t-2 border-green lg:p-[100px] 2xl:p-[200px] p-[48px]">
+    <div className="border-t-2 border-green md:p-[100px] 2xl:p-[200px] p-[50px]">
     <div className="gap-12 flex flex-col w-full items-start text-blac">
     
       <h3 className="text-xl font-black text-black">Let’s be friends!👋</h3>

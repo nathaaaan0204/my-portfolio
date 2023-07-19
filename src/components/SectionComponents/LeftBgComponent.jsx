@@ -11,7 +11,7 @@ export const LeftBgComponent = () => {
       >
         <img
           className="pt-[100px] object-cover h-screen"
-          src="public/me.jpg"
+          src="/me.jpg"
         ></img>
       </div>
   )

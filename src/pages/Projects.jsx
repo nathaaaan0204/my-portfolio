@@ -32,7 +32,7 @@ export const Projects = () => {
   };
 
   return (
-    <div className="w-full xl:py-[200px] xl:px-[200px] py-[200px] px-[100px] -z-50">
+    <div className="w-full xl:py-[200px] 2xl:px-[200px] py-[200px] px-[50px] md:px-[100px] ">
       <h2 className="2xl:text-8xl sm:text-5xl text-3xl 2xl:py-3 2xl:px-7 py-2 w-fit px-4 font-black bg-black text-white rounded-3xl mb-10">
         Projects
       </h2>
@@ -66,7 +66,7 @@ export const Projects = () => {
           </Link>
               </div>
            <div className="w-full">
-              <img src="public/HappyWally.png" className="min-w-[350px]"></img>
+              <img src="/HappyWally.png" className="min-w-[350px]"></img>
            </div>
           
             </div>

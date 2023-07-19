@@ -50,7 +50,7 @@ export const NavbarComponent = () => {
   return (
     <>
    
-<Navbar className="max-w-full bg-white z-[100] px-10 py-3 fixed top-10 mx-[16px] md:mx-[100px] 2xl:mx-[200px] 2xl:w-[calc(100%-400px)] md:w-[calc(100%-200px)] w-[calc(100%-32px)]"
+<Navbar className="max-w-full bg-white z-[100] px-10 py-3 fixed top-10 mx-[50px] md:mx-[100px] 2xl:mx-[200px] 2xl:w-[calc(100%-400px)] md:w-[calc(100%-200px)] w-[calc(100%-100px)]"
     >
       <div className="flex items-center justify-between text-blue-gray-900">
       <Link

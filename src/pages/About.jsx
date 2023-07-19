@@ -14,7 +14,7 @@ export const About = () => {
     <div className="flex h-screen bg-[white]">
       <LeftBgComponent />
       <div className="lg:w-1/2 snap-x snap-mandatory  h-screen overflow-y-scroll">
-        <div className="lg:px-[100px] 2xl:p-[200px] py-[200px] sm:px-[100px] px-[32px]  flex flex-col gap-12 justify-center items-center ">
+        <div className="2xl:p-[200px] py-[200px] md:px-[100px] px-[50px]  flex flex-col gap-12 justify-center items-center ">
           <MyStorySection/>
           
           <MyTechStackSection />
